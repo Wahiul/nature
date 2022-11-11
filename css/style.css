@@ -1,0 +1,150 @@
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Forum', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+header{
+    background-image: url(../images/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DM Sans', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    margin-right: 25px;
+    transition: .6s all ease;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FFD936;
+}
+.btn-number{
+    background: #FFD936;
+    font-size: 15px;
+    padding: 12px 30px;
+    transition: .7s all ease;
+}
+.btn-number:hover{
+    background: #DAB200;
+    color: #606A33;
+}
+.banner_section{
+    min-height: 70vh;
+    align-items: center;
+    color: #fff;
+}
+.banner_content h3{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    line-height: 20px;
+}
+.banner_content h1{
+    font-size: 117px;
+    font-weight: 400;
+}
+.banner_content p{
+    
+}
+/* services part */
+.services{
+    font-family: 'DM Sans', sans-serif;
+    color: #536942;
+}
+.services_item h1{
+    font-weight: 400;
+}
+.services_item span{
+    display: block;
+    height: 3px;
+    background: #DAB200;
+    width: 9%;  
+}
+.services_feature p{
+    color: #819387;
+    line-height: 26px;
+}
+/* customer part */
+.customer{
+    background: #F6F8F5;
+}
+.customer-content a{
+    color: #C5CDBF;
+    font-size: 50px;
+}
+.customer-content h2{
+    color: #536942;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: -2px;
+    font-family: 'Forum', cursive;
+}
+.customer-content img{
+    border-radius: 50%;
+}
+.customer-content p{
+    color: #819387;
+}
+/* about us part */
+.about_text h6{
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    color: #819387;
+    line-height: 45px;
+}
+.about_text h1{
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-family: 'Forum', cursive;
+    color: #536942;
+}
+.about_text p{
+    margin: 35px 0;
+    font-family: 'DM Sans', sans-serif;
+    color: #819387;
+    line-height: 27px;
+}
+/* question part */
+.question{
+    background-image: url(../images/nature.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.question_content h1{
+    color: #536942;
+    font-size: 58px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: -2px;
+}
+.question_content p{
+    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+    color: #606A33;
+    margin: 30px 0;
+}
+/* question part */
+footer{
+    color: #536942;
+    font-family: 'DM Sans', sans-serif;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    margin-left: 25px;
+}
+footer img{
+    width: 15%; 
+}
